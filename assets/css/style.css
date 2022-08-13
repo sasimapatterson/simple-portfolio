@@ -141,29 +141,27 @@ h1 {
     .profile p {
         font-size: 3rem;
         margin-left: 1050px;
-       
-        
-       
         
     }
 
     .about {
        
-        
-        width: 75%;
-        height: 300px;
+        /*width: 75%;*/
+        height: 600px;
         margin: auto;
 
     }
 
     .about h2 {
-        font-size: 2.5rem;
-        margin-top: 20px;
+        font-size: 2.8rem;
+        margin-top: 40px;
+        margin-bottom: 60px;
     }
 
     .about p {
-        font-size: 1.5rem;
-        line-height: 40px;
+        font-size: 2rem;
+        line-height: 50px;
+        padding: 50px;
     }
 
 
