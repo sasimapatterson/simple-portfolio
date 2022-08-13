@@ -91,4 +91,19 @@ h3 {
     nav a {
         font-size: 1.5rem;
     }
+
+    header {
+        background: yellow;
+        height: 280px;
+    }
+
+    .profile img {
+        
+        margin-left: 800px;
+        width: 20%;
+        height: 250px;
+    
+    
+    }
+
 }
