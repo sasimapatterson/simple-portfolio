@@ -18,6 +18,7 @@ nav {
 header {
     background: yellow;
     height: 230px;
+    width: auto;
 }
 
 img {
@@ -60,26 +61,20 @@ h3 {
 
 }
 
-.project1,
-.project2,
-.project3 figure {
+.project-demo .project-showcase img {
     width: 60%;
 
 }
 
-.project2 figure {
+.project-demo img {
     height: 125px;
     background: yellow;
 }
 
 
-.project3 figure {
-    height: 125px;
-    background: lightpink;
-}
 
-/* For bigger screen */
-@media screen and (min-width: 500px) {
+/* For Tablet */
+@media screen and (min-width: 768px) {
     nav {
         justify-content: flex-start;
         justify-content: space-around;
@@ -98,12 +93,30 @@ h3 {
     }
 
     .profile img {
-        
+
         margin-left: 800px;
         width: 20%;
         height: 250px;
-    
-    
+
+
     }
 
-}
+   
+    
+
+    .project-showcase img {
+
+        width: 40%;
+        height: 200px;
+    }
+
+    .project-demo img {
+        width: 40%;
+        margin-top: 20px;
+        height: 125px;
+        background: yellow;
+    }
+    }
+
+    
+
