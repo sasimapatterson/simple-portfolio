@@ -57,12 +57,14 @@ header {
 h1 {
     padding-top: 20px;
     margin-left: 250px;
+    font-size: 1.2rem;
 }
 
 /* might have to change to .profile p */
 .profile p {
     margin-bottom: 20px;
     margin-left: 20px;
+    font-size: 1.15rem;
 }
 
 /* About Section with title and text */
@@ -74,23 +76,47 @@ h1 {
 
 .about h2 {
     text-align: center;
-    
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
 }
 
 .about p {
     margin: 10px;
-    line-height: 20px;
+    line-height: 24px;
+    padding: 10px;
 }
 
 /* Projects with images and titles */
-.project-demo .project-showcase img {
-    width: 60%;
+.projects {
+    background: lemonchiffon;
+    height: 820px;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.projects p {
+    font-size: 1.05rem;
+    margin-top: 7px;
+    margin-bottom: 25px;
+}
+.project-showcase img {
+    height: 250px;
 
 }
 
 .project-demo img {
-    height: 125px;
+    height: 180px;
     background: yellow;
+}
+
+.contact {
+    background: lightblue;
 }
 
 
@@ -154,8 +180,8 @@ h1 {
 
     .about h2 {
         font-size: 2.8rem;
-        margin-top: 40px;
-        margin-bottom: 60px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .about p {
