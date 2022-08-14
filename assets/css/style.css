@@ -155,160 +155,154 @@ footer {
 
 
 /*------------- Media Query ---------------- */
-/* For Tablet */
+
+
+  /*------------- Media Query ---------------- */
+/* For Tablets (iPads) */
 @media screen and (min-width: 768px) {
     nav {
        display: flex;
-        margin-left: 1200px;
-        width: 500px;
+        margin-left: 1230px;
+        width: 30%;
         height: 70px;
         padding: 7px;
-        /*background: lightblue;*/ 
-    }
-
-    nav a {
-        color: blue;
-        justify-content: flex-start;
-        padding-top: 15px;
-        font-size: 2rem;
-        
-    }
-
-    header {
-        /*background: yellow;*/
-        height: 650px;
-        width: 100%;
-    }
-/*
-    .profile {
-       display: flex; 
-        
-    }*/
-
-    .profile img {
-        
-        margin-left: 500px;
-        width: 28%;
-        height: 450px;
-    }
-
-    h1 {
-        padding-top: 20px;
-        font-size: 3rem;
-        margin-left: 200px;
-    }
-
-    .profile p {
-        font-size: 3rem;
-        margin-left: 1050px;
-        
-    }
-
-    .about {
-       
-        /*width: 75%;*/
-        height: 600px;
-        margin: auto;
-
-    }
-
-    .about h2 {
-        font-size: 2.8rem;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    .about p {
-        font-size: 2rem;
-        line-height: 50px;
-        padding: 50px;
-    }
-/*
-    figure {
-        width: 75%;
-    }*/
-
-    .projects {
-       display: flex;
-        
-        
-    }
-
-    .projects h2 {
-        font-size: 2.8rem;
-        align-self: center;
-        margin-left: 40px;
-        margin-right: 40px;
-        
-    }
-
-    .projects p {
-        font-size: 1.3rem;
-    }
-
-    .project-showcase img {
-        margin-top: 80px;
-        /*margin-left: 30px;*/
-        width: 75%;
-        height: 600px;
-    }
-
-    .demo1 img {
-        width: 80%;
-        margin-top: 180px;
-        padding-right: 40px;
-        height: 350px;
-       
-    }
-
-    .demo2 img {
-        margin-top: 240px;
-       width: 80%;
-       height: 250px;
-    }
-
-    .contact {
         /*background: lightblue;*/
-        height: 250px;
-    
     }
-    
-    .contact h2 {
-        font-size: 2.5rem;
-        text-align: center;
-        padding-top: 40px;
-        padding-bottom: 30px;
-        /*background: gray;*/
-    }
-    
-/*
-    .social {
+ 
+     nav a {
+         color: #F5EDDC;
+         justify-content: flex-start;
+         padding-top: 15px;
+         font-size: 2rem;
+         
+     }
+ 
+     header {
+         background: #898AA6;
+         height: 650px;
+         width: 100%;
+     }
+ /*
+     .profile {
+        display: flex; 
+         
+     }
+ */
+     .profile img {
+         
+         margin-left: 600px;
+         width: 28%;
+         height: 450px;
+     }
+ 
+     h1 {
+         padding-top: 20px;
+         font-size: 3rem;
+         margin-left: 200px;
+     }
+ 
+     .profile p {
+         font-size: 3rem;
+         margin-left: 1200px;
+         
+     }
+ 
+     .about {
+        
+         background: #C9BBCF;
+         height: 600px;
+         margin: auto;
+ 
+     }
+ 
+     .about h2 {
+         font-size: 2.8rem;
+         margin-top: 50px;
+         margin-bottom: 50px;
+     }
+ 
+     .about p {
+         font-size: 2rem;
+         line-height: 50px;
+         padding: 50px;
+     }
+ /*
+     figure {
+         width: 75%;
+     }
+ */
+     .projects {
         display: flex;
-        justify-content: center;
-        justify-content: space-evenly;
-        background: lightgreen;
-    }*/
-
-    .social ul {
-        display: flex;   
-        flex-wrap: wrap;
-        justify-content: center;
-        justify-content: space-evenly;
-        padding-top: 90px;   
-    }
-    
-    .social ul li a{
-        font-size: 1.8rem;
-        text-decoration: none;
-    }
-
-    footer {
-        height: 80px;
-        font-size: 1.2rem;
-        padding-top: 40px;
-    }
+         background: #B7D3DF;
+         
+     }
+ 
+     .projects h2 {
+         font-size: 2.8rem;
+         align-self: center;
+         margin-left: 40px;
+         margin-right: 40px;
+         
+     }
+ 
+     .projects p {
+         font-size: 1.3rem;
+     }
+ 
+     .project-showcase img {
+         margin-top: 80px;
+         /*margin-left: 30px;*/
+         width: 75%;
+         height: 600px;
+     }
+ 
+     .demo1 img {
+         width: 80%;
+         margin-top: 180px;
+         padding-right: 40px;
+         height: 350px;
+        
+     }
+ 
+     .demo2 img {
+         margin-top: 240px;
+        width: 80%;
+        height: 250px;
+     }
+ 
+     .contact {
+         background: #D6EFED;
+         height: 250px;
+     
+     }
+     
+     .contact h2 {
+         font-size: 2.5rem;
+         text-align: center;
+         padding-top: 40px;
+         padding-bottom: 30px;
+         /*background: gray;*/
+     }
+ 
+     .social ul {
+         display: flex;   
+         flex-wrap: wrap;
+         justify-content: center;
+         justify-content: space-evenly;
+         margin-top: 40px;   
+         
+     }
+     
+     .social ul li a{
+         font-size: 1.8rem;
+         text-decoration: none;
+         
+     }
+ 
+     footer {
+         background: #D6EFED;
+         height: 80px;
+         font-size: 1.2rem;
+         padding-top: 40px;
+     }
 }
-
-    
-    
-
