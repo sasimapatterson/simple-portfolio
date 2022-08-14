@@ -183,12 +183,16 @@ footer {
         padding: 7px;
         /*background: lightblue;*/
     }
+
+    nav a:hover {
+        color: #1F4690;
+    }
  
      nav a {
          color: #E9DAC1;
          justify-content: flex-start;
          padding-top: 15px;
-         font-size: 2rem;
+         font-size: 1.5rem;
          
      }
  
@@ -213,14 +217,17 @@ footer {
      h1 {
          padding-top: 10px;
          font-size: 3rem;
+         font-family: 'Pacifico', cursive;
+         font-style:italic;
          margin-left: 200px;
-         color: #FF8FB1;
+         color: #81CACF; /*#FF8FB1;*/
      }
  
      .profile p {
-         font-style:italic;
-         font-family: 'Pacifico', cursive;
-         font-size: 3.2rem;
+        font-family: 'Pacifico', cursive;
+        font-style:italic;
+         
+         font-size: 3rem;
          margin-left: 1200px;
          color: #81CACF;
          margin-bottom: 40px;
@@ -242,13 +249,16 @@ footer {
          margin-left: 30px;
          text-align:left;
          color: #0078AA;
-
+         font-family: 'Pacifico', cursive;
+         font-style:italic;
      }
  
      .about p {
          font-size: 2rem;
+         color: #354259;
          line-height: 50px;
          padding: 50px;
+         border: 2px inset #D3CEDF;
      }
  
      figure {
@@ -256,21 +266,24 @@ footer {
      }
  
      .projects {
-        display: flex;
-         background: #B7D3DF;
+         display: flex;
+         background: #D3CEDF; /*#B7D3DF;*/
          
      }
  
      .projects h2 {
          font-size: 2.8rem;
+         font-family: 'Pacifico', cursive;
          align-self: center;
          margin-left: 40px;
          margin-right: 40px;
-         color: #D1512D;
+         color: #0078AA;
      }
  
      .projects p {
          font-size: 1.3rem;
+         color: #354259;
+         font-weight: bold;
      }
  
      .project-showcase img {
@@ -278,10 +291,12 @@ footer {
          margin-left: 40px;
          width: 80%;
          height: 600px;
+         border-color: #81CACF;
      }
  
      .demo1 img {
          /*width: 80%;*/
+         border-color: #81CACF;
          margin-top: 180px;
          height: 350px;   
      }
@@ -292,18 +307,21 @@ footer {
      }
  
      .demo2 img {
+        border-color: #81CACF;
         margin-top: 240px;
         height: 250px;
      }
  
      .contact {
-         background: #D6EFED;
+         background: #9CB4CC; /*#D6EFED;*/
          height: 250px;
      
      }
      
      .contact h2 {
          font-size: 2.5rem;
+         font-family: 'Pacifico', cursive;
+        font-style:italic;
          text-align: center;
          padding-top: 40px;
          padding-bottom: 30px;
@@ -321,15 +339,18 @@ footer {
      }
      
      .social ul li a{
-         font-size: 1.8rem;
+         font-size: 1.6rem;
          text-decoration: none;
+         color: #E9DAC1;
          
      }
  
      footer {
-         background: #D6EFED;
+         background: #F7E2D6; /*#D6EFED;*/
          height: 80px;
          font-size: 1.2rem;
+         font-family: 'Pacifico', cursive;
+         color: #81CACF;
          padding-top: 40px;
      }
 }
