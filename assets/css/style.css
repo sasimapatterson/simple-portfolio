@@ -28,11 +28,12 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: red;
+    color: #6FB2D2;
+    font-weight: bolder;
 }
 /* Header section with profile picture with name. */
 header {
-   /* background: yellow;*/
+   background: #F6E7D8;
     height: 220px;
     width: auto;
 }
@@ -52,19 +53,21 @@ header {
 
 h1 {
     padding-top: 20px;
-    margin-left: 250px;
+    margin-left: 300px;
     font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .profile p {
     margin-bottom: 20px;
     margin-left: 20px;
     font-size: 1.15rem;
+    font-weight: bolder;
 }
 
 /* About Section with title and text */
 .about {
-    background: lightsalmon;
+    background: #6FB2D2;
     padding: 10px;    
 }
 
@@ -73,18 +76,19 @@ h1 {
     margin-top: 25px;
     margin-bottom: 10px;
     font-size: 1.2rem;
+    color: /*#F6E7D8*/ #F7ECDE;
 }
 
 .about p {
     margin: 10px;
     line-height: 24px;
     padding: 10px;
-    border: 2px inset black;
+    border: 2px inset #E4DCCF;
 }
 
 /* Projects with images and titles */
 .projects {
-    background: lemonchiffon;
+    background: #F6E7D8;
     height: 850px;
 }
 
@@ -181,7 +185,7 @@ footer {
     }
  
      nav a {
-         color: #F5EDDC;
+         color: #E9DAC1;
          justify-content: flex-start;
          padding-top: 15px;
          font-size: 2rem;
@@ -207,22 +211,27 @@ footer {
      }
  
      h1 {
-         padding-top: 20px;
+         padding-top: 10px;
          font-size: 3rem;
          margin-left: 200px;
+         color: #FF8FB1;
      }
  
      .profile p {
-         font-size: 3rem;
+         font-style:italic;
+         font-family: 'Pacifico', cursive;
+         font-size: 3.2rem;
          margin-left: 1200px;
+         color: #81CACF;
+         margin-bottom: 40px;
          
      }
  
      .about {
-        
+         
          background: #C9BBCF;
          height: 600px;
-         margin: auto;
+         /*margin: auto;*/
  
      }
  
@@ -230,6 +239,10 @@ footer {
          font-size: 2.8rem;
          margin-top: 50px;
          margin-bottom: 50px;
+         margin-left: 30px;
+         text-align:left;
+         color: #0078AA;
+
      }
  
      .about p {
@@ -253,7 +266,7 @@ footer {
          align-self: center;
          margin-left: 40px;
          margin-right: 40px;
-         
+         color: #D1512D;
      }
  
      .projects p {
@@ -294,6 +307,7 @@ footer {
          text-align: center;
          padding-top: 40px;
          padding-bottom: 30px;
+         color: #1F4690;
          /*background: gray;*/
      }
  
