@@ -59,7 +59,7 @@ header {
 
 h1 {
     padding-top: 20px;
-    margin-left: 300px;
+    margin-left: 240px;
     font-size: 1.2rem;
     font-weight: 300;
     font-family: 'Pacifico', cursive;
@@ -68,7 +68,7 @@ h1 {
 }
 
 .profile p {
-    display: none;
+    visibility: hidden;
    /* margin-bottom: 20px;
     margin-left: 20px;
     font-size: 1.15rem;
@@ -173,13 +173,18 @@ h1 {
     padding-top: 25px;
 }
 
-
 .social ul li a{
     font-size: 1rem;
     text-decoration: none;
     color:#354259;
-    /*background: lightgreen;*/
 }
+
+.social a:hover {
+    text-decoration: underline;
+    color: #354259;
+}
+
+
 
 footer {
     font-size: 1rem;
@@ -197,7 +202,7 @@ footer {
 
 
   /*------------- Media Query ---------------- */
-/* For Tablets (iPads) */
+/* For Laptops/Desktops */
 @media screen and (min-width: 992px){
     nav {
        display: flex;
@@ -239,8 +244,9 @@ footer {
      }
  
      h1 {
+        
          padding-top: 10px;
-         font-size: 3rem;
+         font-size: 3.4rem;
          font-family: 'Pacifico', cursive;
          font-style:italic;
          margin-left: 200px;
@@ -248,9 +254,9 @@ footer {
      }
  
      .profile p {
+        visibility: visible;
         font-family: 'Pacifico', cursive;
         font-style:italic;
-         
          font-size: 3rem;
          margin-left: 1200px;
          color: #81CACF;
@@ -308,8 +314,9 @@ footer {
          font-size: 1.3rem;
          color: #354259;
          font-weight: bold;
+        
      }
- 
+
      .project-showcase img {
          margin-top: 80px;
          margin-left: 40px;
@@ -317,7 +324,7 @@ footer {
          height: 600px;
          border-color: #81CACF;
      }
- 
+
      .demo1 img {
          /*width: 80%;*/
          border-color: #81CACF;
@@ -379,27 +386,28 @@ footer {
      }
 }
 
-/* ------------ For Bigger Screen Size ------------ 
-@media screen and (min-width: 1024px) {
+/* ------------ For Screen between 768px upto 991px ------------ */
+@media screen and (min-width: 768px) and (max-width: 991px) {
     nav {
-        display: flex;
+         display: flex;
          margin-left: 400px;
          width: auto;
          height: 70px;
          padding: 7px;
-         /*background: lightblue;
+         
      }
+ 
      nav a {
         color: #F5EDDC;
         justify-content: flex-start;
         padding-top: 15px;
-        font-size: 2rem;
-        
+        font-size: 1.2rem;
+      
     }
 
     header {
         background: #898AA6;
-        height: 650px;
+        height: 380px;
         width: 100%;
     }
 
@@ -407,12 +415,12 @@ footer {
          
         margin-left: 350px;
         width: 28%;
-        height: 350px;
+        height: 250px;
     }
 
     h1 {
-        padding-top: 20px;
-        font-size: 3rem;
+        padding-top: 7px;
+        font-size: 2.5rem;
         margin-left: 100px;
     }
 
@@ -421,4 +429,27 @@ footer {
         margin-left: 500px;
         
     }
-}*/
+
+    .project-showcase img {
+        margin-top: 30px;
+        margin-left: 40px;
+        width: 70%;
+        height: 220px;
+        border-color: #81CACF;
+    }
+
+    .demo1 img {
+        width: 65%;
+        border-color: #81CACF;
+        margin-top: 50px;
+        height: 190px;   
+    }
+
+    .demo2 img {
+       border-color: #81CACF;
+       width: 55%;
+       margin-top: 50px;
+       height: 190px;
+    }
+
+}
