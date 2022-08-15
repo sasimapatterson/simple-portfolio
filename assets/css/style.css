@@ -1,4 +1,5 @@
-*, html {
+*,
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,6 +8,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /*
 img {
     width: 100%;
@@ -37,9 +39,10 @@ nav a {
 nav a:hover {
     color: #6FB2D2;
 }
+
 /* Header section with profile picture with name. */
 header {
-   background: #F6E7D8;
+    background: #F6E7D8;
     height: 220px;
     width: auto;
 }
@@ -63,13 +66,13 @@ h1 {
     font-size: 1.2rem;
     font-weight: 300;
     font-family: 'Pacifico', cursive;
-    font-style:italic;
+    font-style: italic;
     color: #6FB2D2;
 }
 
 .profile p {
     visibility: hidden;
-   /* margin-bottom: 20px;
+    /* margin-bottom: 20px;
     margin-left: 20px;
     font-size: 1.15rem;
     font-family: 'Pacifico', cursive;
@@ -79,7 +82,7 @@ h1 {
 /* About Section with title and text */
 .about {
     background: #6FB2D2;
-    padding: 10px;    
+    padding: 10px;
 }
 
 .about h2 {
@@ -88,7 +91,7 @@ h1 {
     margin-bottom: 15px;
     font-size: 1.2rem;
     font-family: 'Pacifico', cursive;
-    font-style:italic;
+    font-style: italic;
     color: #F6E7D8;
 }
 
@@ -97,7 +100,7 @@ h1 {
     line-height: 24px;
     padding: 10px;
     border: 2px inset #E4DCCF;
-    color:#354259;
+    color: #354259;
 }
 
 /* Projects with images and titles */
@@ -109,16 +112,16 @@ h1 {
 .projects h2 {
     text-align: center;
     font-size: 1.5rem;
-    color:#6FB2D2;
+    color: #6FB2D2;
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: 'Pacifico', cursive;
-    font-style:italic;
+    font-style: italic;
 }
 
 .projects p {
     font-size: 1.05rem;
-    color:#354259;
+    color: #354259;
     margin-top: 10px;
     margin-bottom: 25px;
     text-align: center;
@@ -129,7 +132,7 @@ h1 {
     height: 250px;
     margin: auto;
     display: flex;
-    box-shadow: 10px 5px 5px #898AA6 ;
+    box-shadow: 10px 5px 5px #898AA6;
     border: 2px solid yellow;
     border-radius: 25px;
 }
@@ -139,7 +142,7 @@ h1 {
     width: 90%;
     margin: auto;
     display: flex;
-    box-shadow: 10px 5px 5px #898AA6 ;
+    box-shadow: 10px 5px 5px #898AA6;
     border: 2px solid yellow;
     border-radius: 25px;
 }
@@ -147,37 +150,37 @@ h1 {
 .contact {
     background: #6FB2D2;
     height: 100px;
-    
+
 }
 
 .contact h2 {
     font-size: 1.5rem;
-    color:#F6E7D8;
+    color: #F6E7D8;
     text-align: center;
     padding-bottom: 10px;
-    padding-top: 20px; 
+    padding-top: 20px;
     font-family: 'Pacifico', cursive;
-    font-style:italic;   
+    font-style: italic;
 }
 
 .social {
-    
+
     height: 60px;
-   /*background: lightpink;*/
+    /*background: lightpink;*/
 }
-     
+
 .social ul {
-    display: flex;   
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-evenly;
     padding-top: 25px;
 }
 
-.social ul li a{
+.social ul li a {
     font-size: 1rem;
     text-decoration: none;
-    color:#354259;
+    color: #354259;
 }
 
 .social a:hover {
@@ -192,409 +195,368 @@ footer {
     padding-top: 25px;
     background: #F6E7D8;
     font-family: 'Pacifico', cursive;
-    font-style:italic;
+    font-style: italic;
     color: #6FB2D2;
 }
 
+/*-------------------- Media Queries ----------------------------*/
 
-/*------------- Media Query ---------------- */
-
-
-  /*------------- Media Query ---------------- */
-
-  /* For Bigger Screen */
+/* ---------------------------------------------------------------
+------------ For Screen between 992px upto 1200px -------------- */
 @media screen and (min-width: 1201px) {
 
-    
     nav {
         display: flex;
-         margin-left: 1230px;
-         width: 30%;
-         height: 70px;
-         padding: 7px;
-         /*background: lightblue;*/
-     }
- 
-     nav a:hover {
-         color: #1F4690;
-     }
-  
-      nav a {
-          color: #E9DAC1;
-          justify-content: flex-start;
-          padding-top: 15px;
-          font-size: 1.5rem;
-          
-      }
-  
-      header {
-          background: #898AA6;
-          height: 650px;
-          width: 100%;
-      }
-  /*
-      .profile {
-         display: flex; 
-          
-      }
-  */
-      .profile img {
-          
-          margin-left: 600px;
-          width: 28%;
-          height: 450px;
-      }
-  
-      h1 {
-         
-          padding-top: 10px;
-          font-size: 3.4rem;
-          font-family: 'Pacifico', cursive;
-          font-style:italic;
-          margin-left: /*200px*/150px;
-          color: #81CACF; /*#FF8FB1;*/
-      }
-  
-      .profile p {
-         visibility: visible;
-         font-family: 'Pacifico', cursive;
-         font-style:italic;
-          font-size: 3rem;
-          margin-left: 1200px;
-          color: #81CACF;
-          margin-bottom: 40px;
-          
-      }
-  
-      .about {
-          
-          background: #C9BBCF;
-          height: 600px;
-          /*margin: auto;*/
-  
-      }
-  
-      .about h2 {
-          font-size: 2.8rem;
-          margin-top: 50px;
-          margin-bottom: 50px;
-          margin-left: 30px;
-          text-align:left;
-          color: #0078AA;
-          font-family: 'Pacifico', cursive;
-          font-style:italic;
-      }
-  
-      .about p {
-          font-size: 2rem;
-          color: #354259;
-          line-height: 50px;
-          padding: 50px;
-          border: 2px inset #D3CEDF;
-      }
-  
-      figure {
-          width: 85%;
-      }
-  
-      .projects {
-          display: flex;
-          background: #D3CEDF; /*#B7D3DF;*/
-          
-      }
-  
-      .projects h2 {
-          font-size: 2.8rem;
-          font-family: 'Pacifico', cursive;
-          align-self: center;
-          margin-left: 40px;
-          margin-right: 40px;
-          color: #0078AA;
-      }
-  
-      .projects p {
-          font-size: 1.3rem;
-          color: #354259;
-          font-weight: bold;
-         
-      }
- 
-      .project-showcase img {
-          margin-top: 80px;
-          margin-left: 40px;
-          width: 80%;
-          height: 600px;
-          border-color: #81CACF;
-      }
- 
-      .demo1 img {
-          /*width: 80%;*/
-          border-color: #81CACF;
-          margin-top: 180px;
-          height: 350px;   
-      }
- 
-      .zoom:hover {
-         transition: transform .5s ease;
-         transform: scale(1.5);
-      }
-  
-      .demo2 img {
-         border-color: #81CACF;
-         margin-top: 240px;
-         height: 250px;
-      }
-  
-      .contact {
-          background: #9CB4CC; /*#D6EFED;*/
-          height: 250px;
-      
-      }
-      
-      .contact h2 {
-          font-size: 2.5rem;
-          font-family: 'Pacifico', cursive;
-         font-style:italic;
-          text-align: center;
-          padding-top: 40px;
-          padding-bottom: 30px;
-          color: #1F4690;
-          /*background: gray;*/
-      }
-  
-      .social ul {
-          display: flex;   
-          flex-wrap: wrap;
-          justify-content: center;
-          justify-content: space-evenly;
-          margin-top: 40px;   
-          
-      }
-      
-      .social ul li a{
-          font-size: 1.6rem;
-          text-decoration: none;
-          color: #E9DAC1;
-          
-      }
-  
-      footer {
-          background: #F7E2D6; /*#D6EFED;*/
-          height: 80px;
-          font-size: 1.2rem;
-          font-family: 'Pacifico', cursive;
-          color: #81CACF;
-          padding-top: 40px;
-      }
- }
+        margin-left: 1230px;
+        width: 30%;
+        height: 70px;
+        padding: 7px;
+    }
+
+    nav a:hover {
+        color: #1F4690;
+    }
+
+    nav a {
+        color: #E9DAC1;
+        justify-content: flex-start;
+        padding-top: 15px;
+        font-size: 1.5rem;
+    }
+
+    header {
+        background: #898AA6;
+        height: 650px;
+        width: 100%;
+    }
+
+    .profile img {
+        margin-left: 600px;
+        width: 28%;
+        height: 450px;
+    }
+
+    h1 {
+        padding-top: 10px;
+        font-size: 3.4rem;
+        font-family: 'Pacifico', cursive;
+        font-style: italic;
+        margin-left: 150px;
+        color: #81CACF;
+    }
+
+    .profile p {
+        visibility: visible;
+        font-family: 'Pacifico', cursive;
+        font-style: italic;
+        font-size: 3rem;
+        margin-left: 1200px;
+        color: #81CACF;
+        margin-bottom: 40px;
+    }
+
+    .about {
+        background: #C9BBCF;
+        height: 600px;
+    }
+
+    .about h2 {
+        font-size: 2.8rem;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 30px;
+        text-align: left;
+        color: #0078AA;
+        font-family: 'Pacifico', cursive;
+        font-style: italic;
+    }
+
+    .about p {
+        font-size: 2rem;
+        color: #354259;
+        line-height: 50px;
+        padding: 50px;
+        border: 2px inset #D3CEDF;
+    }
+
+    figure {
+        width: 85%;
+    }
+
+    .projects {
+        display: flex;
+        background: #D3CEDF;
+
+    }
+
+    .projects h2 {
+        font-size: 2.8rem;
+        font-family: 'Pacifico', cursive;
+        align-self: center;
+        margin-left: 40px;
+        margin-right: 40px;
+        color: #0078AA;
+    }
+
+    .projects p {
+        font-size: 1.3rem;
+        color: #354259;
+        font-weight: bold;
+    }
+
+    .project-showcase img {
+        margin-top: 80px;
+        margin-left: 40px;
+        width: 80%;
+        height: 600px;
+        border-color: #81CACF;
+    }
+
+    .demo1 img {
+        border-color: #81CACF;
+        margin-top: 180px;
+        height: 350px;
+    }
+
+    .zoom:hover {
+        transition: transform .5s ease;
+        transform: scale(1.5);
+    }
+
+    .demo2 img {
+        border-color: #81CACF;
+        margin-top: 240px;
+        height: 250px;
+    }
+
+    .contact {
+        background: #9CB4CC;
+        height: 250px;
+    }
+
+    .contact h2 {
+        font-size: 2.5rem;
+        font-family: 'Pacifico', cursive;
+        font-style: italic;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        color: #1F4690;
+    }
+
+    .social ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 40px;
+    }
+
+    .social ul li a {
+        font-size: 1.6rem;
+        text-decoration: none;
+        color: #E9DAC1;
+    }
+
+    footer {
+        background: #F7E2D6;
+        height: 80px;
+        font-size: 1.2rem;
+        font-family: 'Pacifico', cursive;
+        color: #81CACF;
+        padding-top: 40px;
+    }
+}
 
 
-/* ------------- For Laptops/Desktops ------------------- */
+/* ---------------------------------------------------------------
+------------ For Screen between 992px upto 1200px -------------- */
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     nav {
-       display: flex;
+        display: flex;
         justify-content: flex-end;
         justify-content: space-between;
         margin-left: 680px;
         width: 30%;
         height: 70px;
         padding: 7px;
-        /*background: lightblue;*/
     }
 
     nav a:hover {
         color: #1F4690;
     }
- 
-     nav a {
-         color: #E9DAC1;
-         justify-content: flex-start;
-         padding-top: 15px;
-         font-size: 1.5rem;
-         
-     }
- 
-     header {
-         background: #898AA6;
-         height: 450px;
-         width: 100%;
-     }
- /*
-     .profile {
-        display: flex; 
-         
-     }
- */
-     .profile img {
-         
-         margin-left: 400px;
-         width: 28%;
-         height: 250px;
-     }
- 
-     h1 {
-         padding-top: 10px;
-         font-size: 3rem;
-         font-family: 'Pacifico', cursive;
-         font-style:italic;
-         margin-left: 80px;
-         color: #81CACF; /*#FF8FB1;*/
-     }
- 
-     .profile p {
+
+    nav a {
+        color: #E9DAC1;
+        justify-content: flex-start;
+        padding-top: 15px;
+        font-size: 1.5rem;
+    }
+
+    header {
+        background: #898AA6;
+        height: 450px;
+        width: 100%;
+    }
+
+    .profile img {
+        margin-left: 400px;
+        width: 28%;
+        height: 250px;
+    }
+
+    h1 {
+        padding-top: 10px;
+        font-size: 3rem;
+        font-family: 'Pacifico', cursive;
+        font-style: italic;
+        margin-left: 80px;
+        color: #81CACF;
+    }
+
+    .profile p {
         visibility: visible;
         font-family: 'Pacifico', cursive;
-        font-style:italic;
+        font-style: italic;
         font-size: 3rem;
         display: flex;
         justify-content: flex-end;
         margin-right: 40px;
-         /*margin-left: 1200px;*/
         color: #81CACF;
         margin-bottom: 40px;
-         
-     }
- 
-     .about {
-         background: #C9BBCF;
-         height: 500px;
-         /*margin: auto;*/
- 
-     }
- 
-     .about h2 {
-         font-size: 2.8rem;
-         margin-top: 30px;
-         margin-bottom: 30px;
-         margin-left: 30px;
-         text-align:left;
-         color: #0078AA;
-         font-family: 'Pacifico', cursive;
-         font-style:italic;
-     }
- 
-     .about p {
-         font-size: 1.5rem;
-         color: #354259;
-         line-height: 50px;
-         padding: 30px;
-         border: 2px inset #D3CEDF;
-     }
- 
-     figure {
-         width: 85%;
-     }
- 
-     .projects {
-         display: flex;
-         background: #D3CEDF; /*#B7D3DF;*/
-         height: 600px;
-         
-     }
- 
-     .projects h2 {
-         font-size: 2.8rem;
-         font-family: 'Pacifico', cursive;
-         margin-top: 250px;
-         /*align-self: center;*/
-         margin-left: 40px;
-         margin-right: 40px;
-         color: #0078AA;
-     }
- 
-     .projects p {
-         font-size: 0.9999rem;
-         color: #354259;
-         font-weight: bold;
-        
-     }
+    }
 
-     .project-showcase img {
-         margin-top: 80px;
-         margin-left: 40px;
-         width: 80%;
-         height: 400px;
-         border-color: #81CACF;
-     }
+    .about {
+        background: #C9BBCF;
+        height: 500px;
+    }
 
-     .demo1 img {
-         /*width: 80%;*/
-         border-color: #81CACF;
-         margin-top: 110px;
-         height: 330px;   
-     }
+    .about h2 {
+        font-size: 2.8rem;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+        text-align: left;
+        color: #0078AA;
+        font-family: 'Pacifico', cursive;
+        font-style: italic;
+    }
 
-     .zoom:hover {
+    .about p {
+        font-size: 1.5rem;
+        color: #354259;
+        line-height: 50px;
+        padding: 30px;
+        border: 2px inset #D3CEDF;
+    }
+
+    figure {
+        width: 85%;
+    }
+
+    .projects {
+        display: flex;
+        background: #D3CEDF;
+        height: 600px;
+    }
+
+    .projects h2 {
+        font-size: 2.8rem;
+        font-family: 'Pacifico', cursive;
+        margin-top: 250px;
+        margin-left: 40px;
+        margin-right: 40px;
+        color: #0078AA;
+    }
+
+    .projects p {
+        font-size: 0.9999rem;
+        color: #354259;
+        font-weight: bold;
+    }
+
+    .project-showcase img {
+        margin-top: 80px;
+        margin-left: 40px;
+        width: 80%;
+        height: 400px;
+        border-color: #81CACF;
+    }
+
+    .demo1 img {
+        border-color: #81CACF;
+        margin-top: 110px;
+        height: 330px;
+    }
+
+    .zoom:hover {
         transition: transform .5s ease;
         transform: scale(1.5);
-     }
- 
-     .demo2 img {
+    }
+
+    .demo2 img {
         border-color: #81CACF;
         margin-top: 140px;
         height: 260px;
-     }
- 
-     .contact {
-         background: #9CB4CC; /*#D6EFED;*/
-         height: 200px;
-     
-     }
-     
-     .contact h2 {
-         font-size: 2.5rem;
-         font-family: 'Pacifico', cursive;
-        font-style:italic;
-         text-align: center;
-         padding-top: 40px;
-         padding-bottom: 30px;
-         color: #1F4690;
-         /*background: gray;*/
-     }
- 
-     .social ul {
-         display: flex;   
-         flex-wrap: wrap;
-         justify-content: center;
-         justify-content: space-evenly;
-         margin-top: 20px;        
-     }
-     
-     .social ul li a{
-         font-size: 1.6rem;
-         text-decoration: none;
-         color: #E9DAC1;
-         
-     }
- 
-     footer {
-         background: #F7E2D6; /*#D6EFED;*/
-         height: 80px;
-         font-size: 1.2rem;
-         font-family: 'Pacifico', cursive;
-         color: #81CACF;
-         padding-top: 40px;
-     }
+    }
+
+    .contact {
+        background: #9CB4CC;
+        height: 200px;
+    }
+
+    .contact h2 {
+        font-size: 2.5rem;
+        font-family: 'Pacifico', cursive;
+        font-style: italic;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        color: #1F4690;
+    }
+
+    .social ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+
+    .social ul li a {
+        font-size: 1.6rem;
+        text-decoration: none;
+        color: #E9DAC1;
+
+    }
+
+    footer {
+        background: #F7E2D6;
+        height: 80px;
+        font-size: 1.2rem;
+        font-family: 'Pacifico', cursive;
+        color: #81CACF;
+        padding-top: 40px;
+    }
 }
 
-/* ------------ For Screen between 768px upto 991px ------------ */
+/* ---------------------------------------------------------------
+------------ For Screen between 768px upto 991px -------------- */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     nav {
-         display: flex;
-         margin-left: 400px;
-         width: auto;
-         height: 70px;
-         padding: 7px;
-         
-     }
- 
-     nav a {
+        display: flex;
+        margin-left: 400px;
+        width: auto;
+        height: 70px;
+        padding: 7px;
+    }
+
+    nav a {
         color: #354259;
         justify-content: flex-start;
         padding-top: 15px;
         font-size: 1.2rem;
-      
     }
 
     header {
@@ -604,7 +566,6 @@ footer {
     }
 
     .profile img {
-         
         margin-left: 350px;
         width: 28%;
         height: 250px;
@@ -619,7 +580,6 @@ footer {
     .profile p {
         font-size: 3rem;
         margin-left: 500px;
-        
     }
 
     .about {
@@ -654,14 +614,14 @@ footer {
         width: 65%;
         border-color: #81CACF;
         margin-top: 50px;
-        height: 240px;   
+        height: 240px;
     }
 
     .demo2 img {
-       border-color: #81CACF;
-       width: 55%;
-       margin-top: 50px;
-       height: 240px;
+        border-color: #81CACF;
+        width: 55%;
+        margin-top: 50px;
+        height: 240px;
     }
 
     .contact h2 {
@@ -670,7 +630,7 @@ footer {
 
     .social ul {
         padding-top: 15px;
-        
+
     }
 
 }
