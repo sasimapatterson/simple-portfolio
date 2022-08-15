@@ -1,4 +1,4 @@
-* {
+*, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -123,6 +123,7 @@ h1 {
     margin-bottom: 25px;
     text-align: center;
 }
+
 .project-showcase img {
     width: 90%;
     height: 250px;
@@ -200,11 +201,202 @@ footer {
 
 
   /*------------- Media Query ---------------- */
-/* For Laptops/Desktops */
-@media screen and (min-width: 992px){
+
+  /* For Bigger Screen */
+@media screen and (min-width: 1201px) {
+
+    
+    nav {
+        display: flex;
+         margin-left: 1230px;
+         width: 30%;
+         height: 70px;
+         padding: 7px;
+         /*background: lightblue;*/
+     }
+ 
+     nav a:hover {
+         color: #1F4690;
+     }
+  
+      nav a {
+          color: #E9DAC1;
+          justify-content: flex-start;
+          padding-top: 15px;
+          font-size: 1.5rem;
+          
+      }
+  
+      header {
+          background: #898AA6;
+          height: 650px;
+          width: 100%;
+      }
+  /*
+      .profile {
+         display: flex; 
+          
+      }
+  */
+      .profile img {
+          
+          margin-left: 600px;
+          width: 28%;
+          height: 450px;
+      }
+  
+      h1 {
+         
+          padding-top: 10px;
+          font-size: 3.4rem;
+          font-family: 'Pacifico', cursive;
+          font-style:italic;
+          margin-left: /*200px*/150px;
+          color: #81CACF; /*#FF8FB1;*/
+      }
+  
+      .profile p {
+         visibility: visible;
+         font-family: 'Pacifico', cursive;
+         font-style:italic;
+          font-size: 3rem;
+          margin-left: 1200px;
+          color: #81CACF;
+          margin-bottom: 40px;
+          
+      }
+  
+      .about {
+          
+          background: #C9BBCF;
+          height: 600px;
+          /*margin: auto;*/
+  
+      }
+  
+      .about h2 {
+          font-size: 2.8rem;
+          margin-top: 50px;
+          margin-bottom: 50px;
+          margin-left: 30px;
+          text-align:left;
+          color: #0078AA;
+          font-family: 'Pacifico', cursive;
+          font-style:italic;
+      }
+  
+      .about p {
+          font-size: 2rem;
+          color: #354259;
+          line-height: 50px;
+          padding: 50px;
+          border: 2px inset #D3CEDF;
+      }
+  
+      figure {
+          width: 85%;
+      }
+  
+      .projects {
+          display: flex;
+          background: #D3CEDF; /*#B7D3DF;*/
+          
+      }
+  
+      .projects h2 {
+          font-size: 2.8rem;
+          font-family: 'Pacifico', cursive;
+          align-self: center;
+          margin-left: 40px;
+          margin-right: 40px;
+          color: #0078AA;
+      }
+  
+      .projects p {
+          font-size: 1.3rem;
+          color: #354259;
+          font-weight: bold;
+         
+      }
+ 
+      .project-showcase img {
+          margin-top: 80px;
+          margin-left: 40px;
+          width: 80%;
+          height: 600px;
+          border-color: #81CACF;
+      }
+ 
+      .demo1 img {
+          /*width: 80%;*/
+          border-color: #81CACF;
+          margin-top: 180px;
+          height: 350px;   
+      }
+ 
+      .zoom:hover {
+         transition: transform .5s ease;
+         transform: scale(1.5);
+      }
+  
+      .demo2 img {
+         border-color: #81CACF;
+         margin-top: 240px;
+         height: 250px;
+      }
+  
+      .contact {
+          background: #9CB4CC; /*#D6EFED;*/
+          height: 250px;
+      
+      }
+      
+      .contact h2 {
+          font-size: 2.5rem;
+          font-family: 'Pacifico', cursive;
+         font-style:italic;
+          text-align: center;
+          padding-top: 40px;
+          padding-bottom: 30px;
+          color: #1F4690;
+          /*background: gray;*/
+      }
+  
+      .social ul {
+          display: flex;   
+          flex-wrap: wrap;
+          justify-content: center;
+          justify-content: space-evenly;
+          margin-top: 40px;   
+          
+      }
+      
+      .social ul li a{
+          font-size: 1.6rem;
+          text-decoration: none;
+          color: #E9DAC1;
+          
+      }
+  
+      footer {
+          background: #F7E2D6; /*#D6EFED;*/
+          height: 80px;
+          font-size: 1.2rem;
+          font-family: 'Pacifico', cursive;
+          color: #81CACF;
+          padding-top: 40px;
+      }
+ }
+
+
+/* ------------- For Laptops/Desktops ------------------- */
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
     nav {
        display: flex;
-        margin-left: 1230px;
+        justify-content: flex-end;
+        justify-content: space-between;
+        margin-left: 680px;
         width: 30%;
         height: 70px;
         padding: 7px;
@@ -225,7 +417,7 @@ footer {
  
      header {
          background: #898AA6;
-         height: 650px;
+         height: 450px;
          width: 100%;
      }
  /*
@@ -236,18 +428,17 @@ footer {
  */
      .profile img {
          
-         margin-left: 600px;
+         margin-left: 400px;
          width: 28%;
-         height: 450px;
+         height: 250px;
      }
  
      h1 {
-        
          padding-top: 10px;
-         font-size: 3.4rem;
+         font-size: 3rem;
          font-family: 'Pacifico', cursive;
          font-style:italic;
-         margin-left: 200px;
+         margin-left: 80px;
          color: #81CACF; /*#FF8FB1;*/
      }
  
@@ -255,25 +446,27 @@ footer {
         visibility: visible;
         font-family: 'Pacifico', cursive;
         font-style:italic;
-         font-size: 3rem;
-         margin-left: 1200px;
-         color: #81CACF;
-         margin-bottom: 40px;
+        font-size: 3rem;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 40px;
+         /*margin-left: 1200px;*/
+        color: #81CACF;
+        margin-bottom: 40px;
          
      }
  
      .about {
-         
          background: #C9BBCF;
-         height: 600px;
+         height: 500px;
          /*margin: auto;*/
  
      }
  
      .about h2 {
          font-size: 2.8rem;
-         margin-top: 50px;
-         margin-bottom: 50px;
+         margin-top: 30px;
+         margin-bottom: 30px;
          margin-left: 30px;
          text-align:left;
          color: #0078AA;
@@ -282,10 +475,10 @@ footer {
      }
  
      .about p {
-         font-size: 2rem;
+         font-size: 1.5rem;
          color: #354259;
          line-height: 50px;
-         padding: 50px;
+         padding: 30px;
          border: 2px inset #D3CEDF;
      }
  
@@ -296,20 +489,22 @@ footer {
      .projects {
          display: flex;
          background: #D3CEDF; /*#B7D3DF;*/
+         height: 600px;
          
      }
  
      .projects h2 {
          font-size: 2.8rem;
          font-family: 'Pacifico', cursive;
-         align-self: center;
+         margin-top: 250px;
+         /*align-self: center;*/
          margin-left: 40px;
          margin-right: 40px;
          color: #0078AA;
      }
  
      .projects p {
-         font-size: 1.3rem;
+         font-size: 0.9999rem;
          color: #354259;
          font-weight: bold;
         
@@ -319,15 +514,15 @@ footer {
          margin-top: 80px;
          margin-left: 40px;
          width: 80%;
-         height: 600px;
+         height: 400px;
          border-color: #81CACF;
      }
 
      .demo1 img {
          /*width: 80%;*/
          border-color: #81CACF;
-         margin-top: 180px;
-         height: 350px;   
+         margin-top: 110px;
+         height: 330px;   
      }
 
      .zoom:hover {
@@ -337,13 +532,13 @@ footer {
  
      .demo2 img {
         border-color: #81CACF;
-        margin-top: 240px;
-        height: 250px;
+        margin-top: 140px;
+        height: 260px;
      }
  
      .contact {
          background: #9CB4CC; /*#D6EFED;*/
-         height: 250px;
+         height: 200px;
      
      }
      
@@ -363,8 +558,7 @@ footer {
          flex-wrap: wrap;
          justify-content: center;
          justify-content: space-evenly;
-         margin-top: 40px;   
-         
+         margin-top: 20px;        
      }
      
      .social ul li a{
