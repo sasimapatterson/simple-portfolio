@@ -52,14 +52,14 @@ header {
 .profile img {
     border-radius: 50%;
     margin-top: 0px;
-    margin-left: /*130px*/150px;
+    margin-left: 130px;
     width: 35%;
     height: 130px;
 }
 
 h1 {
     padding-top: 20px;
-    margin-left: /*240px*/ 350px;
+    margin-left: 240px;
     font-size: 1.2rem;
     font-weight: 300;
     font-family: 'Pacifico', cursive;
