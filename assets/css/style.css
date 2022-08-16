@@ -13,11 +13,11 @@ h1, h2, footer, .profile p{
     font-family: 'Pacifico', cursive;
     font-style: italic;
 }
-/*
+
 img {
     width: 100%;
     height: auto;
-}*/
+}
 
 figure {
     margin: 0;
@@ -59,7 +59,6 @@ header {
     margin-top: 0px;
     margin-left: 130px;
     width: 35%;
-    height: 130px;
 }
 
 /* --- This is for my name.--- */
@@ -214,7 +213,6 @@ footer {
     .profile img {
         margin-left: 600px;
         width: 28%;
-        height: 450px;
     }
 
     h1 {
@@ -250,8 +248,8 @@ footer {
     .about p {
         font-size: 2rem;
         color: #354259;
-        line-height: 2em;
-        padding: 50px;
+        line-height: 40px;
+        padding: 40px;
         border: 2px inset #D3CEDF;
     }
 
@@ -375,7 +373,6 @@ footer {
     .profile img {
         margin-left: 400px;
         width: 28%;
-        height: 250px;
     }
 
     h1 {
@@ -530,7 +527,6 @@ footer {
     .profile img {
         margin-left: 350px;
         width: 28%;
-        height: 250px;
     }
 
     h1 {
