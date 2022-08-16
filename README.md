@@ -11,17 +11,17 @@ Getting a job is about being proactive. To be ahead of the game, your resume and
 
 Visuals
 ```bash
-Portfolio Mobile Version. 
+Portfolio for Small Screens. 
 ```
 ![Portfolio Mobile Version](./assets/images/simple-portfolio-mobile.png)
 
 ```bash
-Portfolio Tablet Version for screen 768px upto 991px.
+Portfolio for Medium Screens.
 ```
 ![Portfolio Tablet Version](./assets/images/simple-portfolio-tablet.png)
 
 ```bash
-Portfolio Laptop/Desktop Version for screen 992px and up.
+Portfolio for Big Screens.
 ```
 ![Portfolio Laptop/Desktop Version](./assets/images/simple-porfolio-desktop.png)
 
