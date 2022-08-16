@@ -250,7 +250,7 @@ footer {
     .about p {
         font-size: 2rem;
         color: #354259;
-        line-height: 50px;
+        line-height: 2em;
         padding: 50px;
         border: 2px inset #D3CEDF;
     }
