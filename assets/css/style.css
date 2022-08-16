@@ -262,6 +262,7 @@ footer {
     .projects {
         display: flex;
         background: #D3CEDF;
+        gap: 2rem;
     }
 
     .projects h2 {
@@ -422,6 +423,7 @@ footer {
 
     .projects {
         display: flex;
+        gap: 2rem;
         background: #D3CEDF;
         height: 600px;
     }
